@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'popiines';
+  src: url('popiines.woff2') format('woff2');
+}
+
+body {
+  font-family: 'popiines', sans-serif;
+}
+
+.next-btn-container {
+  position: relative;
+  display: inline-block;
+.apology-btn {
+  background-color: #ff99cc;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.apology-btn:hover {
+  background-color: #ff0066;
+  color: white;
+}
+}
+
+.heart-icon {
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
