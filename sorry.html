@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Heart's Apology</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+            font-family: 'Arial', sans-serif;
+            color: white;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .message {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            background: #ffffff;
+            color: #ff6b6b;
+            padding: 15px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: all 0.3s ease;
+            display: inline-block;
+            margin-top: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .heart {
+            font-size: 50px;
+            margin: 20px 0;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart">💔</div>
+        <h1>My Heart Bleeds for Your Forgiveness</h1>
+        
+        <div class="message">
+            <p>My Love,</p>
+            
+            <p>Every second without you feels like an eternity in darkness. I kneel before you with a shattered heart, begging for mercy for my failures. This Valentine's Day was meant to be our celebration, but the cruel twists of fate stole that chance from us - my body weakened, resources drained, yet my love for you burned brighter than ever.</p>
+
+            <p>I see the disappointment in your eyes like daggers to my soul. You, my north star, my reason for breathing, now hidden behind walls of well-deserved anger. I curse myself for not being the poet you deserve, for fumbling with clumsy words when your heart demands sonnets.</p>
+
+            <p>Please know I would move mountains to see that smile again. I'll learn the language of flowers, memorize every curve of your laughter, become the man who deserves to stand by your radiance. This imperfect heart beats solely for you - take it as collateral until I prove my worth.</p>
+
+            <p>Don't let this be our ending, my love. I'm on my knees, tears mixing with these words, pleading for one more chance to love you better.</p>
+
+            <p>Forever Yours,<br>
+            V</p>
+        </div>
+
+        <a href="https://wa.me/+918277138312" class="button">
+            💔 Please Let Me Mend Us 💔
+        </a>
+    </div>
+
+    <script>
+        document.querySelector('.button').addEventListener('click', function() {
+            this.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                this.style.transform = 'scale(1)';
+            }, 200);
+        });
+    </script>
+</body>
+</html>
